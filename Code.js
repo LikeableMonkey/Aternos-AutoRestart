@@ -20,9 +20,13 @@ setInterval(function(){
     tm = COUNTDOWN.valueOf();
     var str = document.getElementById('players').innerText;
     var res = str.charAt(0);
-    if(tm<30 && tm && res=='0')
+    if(tm<20 && tm && res=='0')
     {
         document.getElementById('restart').click();
+        location.reload();
+    }
+    if(tm<30 && tm)
+    {
         location.reload();
     }
 },5000)
