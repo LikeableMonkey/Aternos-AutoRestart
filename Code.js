@@ -5,7 +5,7 @@
 // @version      0.1
 // @description  Aternos AutoStart
 // @author       LikeableMonkey
-// @include      https://aternos.org/server/*
+// @match      https://aternos.org/server/*
 // @grant        none
 // ==/UserScript==
 
